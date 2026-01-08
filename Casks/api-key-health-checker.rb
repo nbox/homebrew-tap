@@ -15,7 +15,6 @@ cask "api-key-health-checker" do
 
   app "API Key Health Checker.app"
 
- # Automatically remove quarantine after installation 
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-dr", "com.apple.quarantine", "#{appdir}/API Key Health Checker.app"],
@@ -24,8 +23,8 @@ cask "api-key-health-checker" do
 
   zap trash: [
     "~/Library/Application Support/API Key Health Checker",
-    "~/Library/Preferences/com.nbox.api-key-health-checker.plist",
-    "~/Library/Saved Application State/com.nbox.api-key-health-checker.savedState",
+    "~/Library/Preferences/com.nbox.plist",
+    "~/Library/Saved Application State/com.nbox.savedState",
     "~/Library/Logs/API Key Health Checker",
   ]
 end
