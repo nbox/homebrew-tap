@@ -1,9 +1,9 @@
 cask "api-key-health-checker" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.0"
-  sha256 arm:   "PUT_ARM64_SHA256_HERE",
-         intel: "PUT_X64_SHA256_HERE"
+  version "1.0.1"
+  sha256 arm:   "9d9f8ec978bae9ca943875b50dbaceabe7bf48810adc4cea95eb18c7aa7c54de",
+         intel: "f18623d1ae9b96cc43d3567ec59c99acbf6b96cc826dae6a548dcb824b2fa561"
 
   url "https://github.com/nbox/API-Key-Health-Checker/releases/download/v#{version}/API%20Key%20Health%20Checker-#{version}-#{arch}.dmg",
       verified: "github.com/nbox/API-Key-Health-Checker/"
