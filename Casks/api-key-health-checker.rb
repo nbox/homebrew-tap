@@ -5,8 +5,9 @@ cask "api-key-health-checker" do
   sha256 arm:   "9d9f8ec978bae9ca943875b50dbaceabe7bf48810adc4cea95eb18c7aa7c54de",
          intel: "f18623d1ae9b96cc43d3567ec59c99acbf6b96cc826dae6a548dcb824b2fa561"
 
-  url "https://github.com/nbox/API-Key-Health-Checker/releases/download/v#{version}/API%20Key%20Health%20Checker-#{version}-#{arch}.dmg",
-      verified: "github.com/nbox/API-Key-Health-Checker/"
+url "https://github.com/nbox/API-Key-Health-Checker/releases/download/v#{version}/API.Key.Health.Checker-#{version}-#{arch}.dmg",
+    verified: "github.com/nbox/API-Key-Health-Checker/"
+
   name "API Key Health Checker"
   desc "Desktop app to validate API keys (OpenAI, Gemini, YouTube, custom endpoints)"
   homepage "https://github.com/nbox/API-Key-Health-Checker"
