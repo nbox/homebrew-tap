@@ -17,9 +17,11 @@ url "https://github.com/nbox/API-Key-Health-Checker/releases/download/v#{version
   app "API Key Health Checker.app"
 
   postflight do
+    target = Pathname(appdir) / "API Key Health Checker.app"
+
     system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/API Key Health Checker.app"],
-                   sudo: true
+                   args: ["-dr", "com.apple.quarantine", target],
+                   sudo: !target.writable?
   end
 
   zap trash: [
