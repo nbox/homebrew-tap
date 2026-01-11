@@ -1,6 +1,6 @@
 cask "obsidian-hot-corner-md" do
   version "1.0.0"
-  sha256 "REPLACE_WITH_SHA256"
+  sha256 "df7544be67de268024563091d1f48533a1193a646c9ef7f043d50d7fcf6cc598"
 
   url "https://github.com/nbox/ObsidianHotCornerMD/releases/download/v#{version}/ObsidianHotCornerMD-#{version}.dmg"
   name "Obsidian Hot Corner Preview"
