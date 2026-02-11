@@ -5,7 +5,7 @@ cask "proxy-api-key-checker" do
   sha256 arm:   "bd2bbc031917a2eb8fc7c59910b8b27e72e831db5cd9b810edb85d4e35be6b10",
          intel: "db360d17222eb18926352874d49e0c31542a683eda98035a36a60419a83f113d"
 
-  url "https://github.com/nbox/Proxy-API-Key-Checker/releases/download/v#{version}/Proxy%20%26%20API%20Key%20Checker-#{version}-#{arch}.dmg"
+  url "https://github.com/nbox/Proxy-API-Key-Checker/releases/download/v#{version}/Proxy.API.Key.Checker-#{version}-#{arch}.dmg"
   name "Proxy & API Key Checker"
   desc "Desktop app to validate API keys and check proxy lists (HTTP/HTTPS/SOCKS)"
   homepage "https://github.com/nbox/Proxy-API-Key-Checker"
