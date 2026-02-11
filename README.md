@@ -3,27 +3,25 @@ This repository contains Homebrew **casks** for installing macOS apps via Homebr
 
 ---
 
-## API Key Health Checker
+## Proxy & API Key Checker
 <p align="center">
-  <img src="https://github.com/nbox/API-Key-Health-Checker/blob/main/assets/logo.png" width="220" alt="API Key Health Checker logo " />
+  <img src="https://github.com/nbox/Proxy-API-Key-Checker/blob/main/assets/logo.png" width="220" alt="Proxy & API Key Checker logo " />
 </p>
 
-
-A desktop app that checks API key validity and basic health for supported providers (e.g. OpenAI, Gemini, YouTube) and custom endpoints.
+A desktop app that validates API keys for supported providers (e.g. OpenAI, Gemini, YouTube) and custom endpoints, plus checks proxy lists (HTTP/HTTPS/SOCKS) with batch runs, limits, and reports.
 
 ### Install
 
 ```bash
-brew install --cask nbox/tap/api-key-health-checker
+brew install --cask nbox/tap/proxy-api-key-checker
 ```
 
 ### Uninstall
 
 ```bash
-brew uninstall --cask --zap api-key-health-checker
+brew uninstall --cask --zap proxy-api-key-checker
 ```
-![Screenshot](https://github.com/nbox/API-Key-Health-Checker/blob/main/assets/screenshot.png)
-
+![Screenshot](https://github.com/nbox/Proxy-API-Key-Checker/blob/main/assets/screenshot.png)
 
 ### Notes
 
@@ -70,6 +68,33 @@ brew uninstall --cask --zap obsidian-hot-corner-md
 - **Launch at Login**: Enable “Open at Login,” implemented via a Launch Agent (`~/Library/LaunchAgents`). The app will appear in System Settings → General → Login Items (you can disable it there).
 
 </details>
+
+### Notes
+
+During installation you may be asked for your password because the cask runs xattr with sudo
+to remove macOS quarantine from the installed app.
+
+---
+
+## API Key Health Checker (Deprecated)
+<p align="center">
+  <img src="https://github.com/nbox/API-Key-Health-Checker/blob/main/assets/logo.png" width="220" alt="API Key Health Checker logo " />
+</p>
+
+Deprecated. Use Proxy & API Key Checker instead.
+
+### Install
+
+```bash
+brew install --cask nbox/tap/api-key-health-checker
+```
+
+### Uninstall
+
+```bash
+brew uninstall --cask --zap api-key-health-checker
+```
+![Screenshot](https://github.com/nbox/API-Key-Health-Checker/blob/main/assets/screenshot.png)
 
 ### Notes
 
