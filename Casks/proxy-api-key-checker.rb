@@ -2,8 +2,8 @@ cask "proxy-api-key-checker" do
   arch arm: "arm64", intel: "x64"
 
   version "1.1.0"
-  sha256 arm:   "REPLACE_WITH_ARM_SHA",
-         intel: "REPLACE_WITH_INTEL_SHA"
+  sha256 arm:   "bd2bbc031917a2eb8fc7c59910b8b27e72e831db5cd9b810edb85d4e35be6b10",
+         intel: "db360d17222eb18926352874d49e0c31542a683eda98035a36a60419a83f113d"
 
   url "https://github.com/nbox/Proxy-API-Key-Checker/releases/download/v#{version}/Proxy%20%26%20API%20Key%20Checker-#{version}-#{arch}.dmg"
   name "Proxy & API Key Checker"
